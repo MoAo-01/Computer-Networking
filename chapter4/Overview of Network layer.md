@@ -8,3 +8,25 @@
 - on receiving side, delivers segments into datagrams
 - network layer protocols in **every** host, rounter
 - rounter examines header fields in all IP datagrams passing through it
+
+## Two key network-layer functions
+- forwarding:
+  - move packets from router’s input to appropriate router output
+- rounting:
+  - determine route taken by packets from source to destination
+  - **rounting algorithms** 
+ 
+ ![image](https://user-images.githubusercontent.com/83717535/140719244-61c574f5-5dde-416c-bff3-48890e81904f.png)
+
+ 
+## Data Plane and Control Plane
+- Data Plane
+  - local, pre-rounter function
+  - determines how datagram arriving on rounter input port is forwarded to rounter output port
+  - forwarding function
+- Control Plane
+  - networking-wide logic
+  - determines how datagram is rounted among rounters along end-end path from source host to destination host
+  - two control-plane approaches:
+    - traditional rounting algorithms: implemented in rounters
+    - software-defineded networking (SDN): implemented in (remote) servers
