@@ -34,13 +34,9 @@
 
 ![image](https://user-images.githubusercontent.com/83717535/140885493-bd26ea16-2693-48ac-bdf0-e78cd09c3c28.png)
 
-
 ## Pre-router Control Plane
 
 Individual routing algorithm components _in each and every router_ interact in the control plane 
-
-
-![Uploading image.png…]()
 
 
 ## Logically Centralized Control Plane
