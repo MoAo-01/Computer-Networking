@@ -30,3 +30,20 @@
   - two control-plane approaches:
     - traditional rounting algorithms: implemented in rounters
     - software-defineded networking (SDN): implemented in (remote) servers
+
+P1
+
+
+## Pre-router Control Plane
+
+Individual routing algorithm components _in each and every router_ interact in the control plane 
+
+
+## Logically Centralized Control Plane
+
+A distinct (typically remote) controller interacts with local control agents (CAs)
+
+
+
+
+
