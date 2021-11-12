@@ -64,8 +64,18 @@
 - Head-of-the-Line (HOL) blocking: queued datagram at front of queue prevents others in queue from moving forward
 
 
+## Output port _(Hugely important!)_
+![image](https://user-images.githubusercontent.com/83717535/141434564-31076f3e-8124-4a35-8d20-368a234a5540.png)
+- **buffering** required when datagrams arrive from fabric faster than the transmission rate
+  - Datagram (packets) can be lost due to congestion, lack of buffers
+- **scheduling discipline** chooses among queued datagrams for transmission
+  - Priority schduling - who gets best performance, network neutrality
 
 
+## Output port queueing
+![image](https://user-images.githubusercontent.com/83717535/141435188-b3973a1f-717e-41b7-a0dc-d09b21f20c27.png)
+- buffering when arrival rate via switch exceeds output line speed
+- **queueing (delay) and loss due to output port buffer overflow!**
 
 
 
