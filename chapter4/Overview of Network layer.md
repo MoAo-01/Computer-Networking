@@ -12,9 +12,11 @@
 ## Two key network-layer functions
 - forwarding:
   - move packets from router’s input to appropriate router output
+  - 转发是指将分组从一个输入链路接口转移到适当的输出链路接口的路由器本地动作。
 - rounting:
   - determine route taken by packets from source to destination
   - **rounting algorithms** 
+  - 路由选择是指确定分组从源到目的地所采用的端到端路径的网络范围处理过程。
  
  ![image](https://user-images.githubusercontent.com/83717535/140719244-61c574f5-5dde-416c-bff3-48890e81904f.png)
 
