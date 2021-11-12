@@ -35,12 +35,12 @@
 
 
 ![image](https://user-images.githubusercontent.com/83717535/140885493-bd26ea16-2693-48ac-bdf0-e78cd09c3c28.png)
-### Pre-router Control Plane
-Individual routing algorithm components _in each and every router_ interact in the control plane 
+  - ### Pre-router Control Plane
+    - Individual routing algorithm components _in each and every router_ interact in the control plane 
 
 ![image](https://user-images.githubusercontent.com/83717535/141412512-76634d1e-8569-4cb2-a63d-2854a7a4c9a7.png)
-### Logically Centralized Control Plane
-A distinct (typically remote) controller interacts with local control agents (CAs)
+  - ### Logically Centralized Control Plane
+    - A distinct (typically remote) controller interacts with local control agents (CAs)
 
 
 ## Network Service Model
