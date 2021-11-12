@@ -40,6 +40,7 @@
 
 Individual routing algorithm components _in each and every router_ interact in the control plane 
 
+![image](https://user-images.githubusercontent.com/83717535/141412512-76634d1e-8569-4cb2-a63d-2854a7a4c9a7.png)
 
 ## Logically Centralized Control Plane
 
