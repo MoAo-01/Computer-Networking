@@ -59,7 +59,7 @@
 
 ## Input port queuing
 ![image](https://user-images.githubusercontent.com/83717535/141432260-988512dd-e1d0-4964-8363-749a16b9b8d4.png)
-- fabric slower than input ports combined &#8594 queueing may occur at input queues
+- fabric slower than input ports combined → queueing may occur at input queues
   - queueing delay and loss due to input buffer overflow
 - Head-of-the-Line (HOL) blocking: queued datagram at front of queue prevents others in queue from moving forward
 
