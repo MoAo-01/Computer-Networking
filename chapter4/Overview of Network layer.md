@@ -50,6 +50,7 @@
 - guaranteed minimum bandwidth to flow
 - security
 
+![image](https://user-images.githubusercontent.com/83717535/141415435-496980e0-d970-403f-8d76-915000d1dc20.png)
 
 
 
