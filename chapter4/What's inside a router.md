@@ -78,6 +78,35 @@
 - **queueing (delay) and loss due to output port buffer overflow!**
 
 
+## How much buffering?
+- **RFC 3439** rule of thumb: average buffering equal to "typical" **RTT** (say 25 msec) times link capacity C
+  - e.g., C = 10 Gpbs link: 2.5 Gbit buffer
+- recent recommendation: with _N_ flow, buffering equal to $\frac{RTT·C}{\sqrt{N}}$
+
+
+## Scheduling mechanisms
+- scheduling: choose next packet to send on link
+- FIFO (First in first out) scheduling: send in order of arrival to queue
+  - real-world example: buy tickets
+  - discard policy: if packet arrives to full queue: who to discard?
+    - tail drop: drop arriving packet
+    - priority: drop/remove on priority basis
+    - random: drop/remove randomly
+![image](https://user-images.githubusercontent.com/83717535/141602995-f0e87146-b8e7-48a2-88c5-1842ccd98cc8.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
